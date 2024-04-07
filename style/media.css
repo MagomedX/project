@@ -1,0 +1,52 @@
+@media (max-width: 1300px){
+    .main{
+        flex-direction: column;
+
+    }
+
+    .main-text{
+        margin-bottom: 30px;
+    }
+
+    .services-items{
+        flex-direction: column;
+        row-gap: 20px;
+    }
+
+    .services-items svg{
+        width: 40px;
+        height: 40px;
+    }
+
+    .service-text{
+        text-align: center;
+    }
+
+    .about{
+        flex-direction: column;
+    }
+
+    .about-item__none{
+        display: none;
+    }
+
+    .about-item{
+        flex-direction: column;
+        row-gap: 40px;
+        margin: auto;
+        align-items: center;
+    }
+
+
+
+    .blog-items{
+        flex-direction: column;
+        row-gap: 30px;
+        margin: auto;
+        align-items: center;
+    }
+
+
+
+
+}
